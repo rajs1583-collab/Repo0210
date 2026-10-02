@@ -19,7 +19,7 @@ const newPage=await pagePromise
 await expect(newPage).toHaveTitle("merrymoonmary Stock Image and Video Portfolio - iStock");
 
 await page1.waitForTimeout(3000)
-await newPage.waitForTimeout(3000)
+await newPage.waitForTimeout(4000)
 
 await browser.close()
 
