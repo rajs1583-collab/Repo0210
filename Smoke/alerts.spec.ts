@@ -32,7 +32,7 @@ test.skip ('handling alert ok n cancel',async({page})=>{
     })
 
     await page.locator('//button[@id="confirmBtn"]').click();
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(4000);
 
 })
 

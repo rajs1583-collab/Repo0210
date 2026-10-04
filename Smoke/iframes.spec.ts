@@ -8,5 +8,5 @@ test('iframes',async({page})=>{
    
     //await inputbox.locator("[name='mytext1']").fill('Chandra Sekhar');
 
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(4000)
 })
