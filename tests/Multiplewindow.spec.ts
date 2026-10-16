@@ -20,7 +20,7 @@ const newPage=await pagePromise
 await expect(newPage).toHaveTitle(/iStock/i);
 
 await page1.waitForTimeout(3000)
-await newPage.waitForTimeout(4000)
+await newPage.waitForTimeout(5000)
 
 await browser.close()
 

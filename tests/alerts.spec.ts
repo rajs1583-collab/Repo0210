@@ -14,7 +14,7 @@ test.skip ('handling alert',async({page})=>{
     })
 
     await page.locator('//button[@id="alertBtn"]').click();
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(6000);
 
 })
 
