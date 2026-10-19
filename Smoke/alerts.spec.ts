@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test';
 
-test.skip ('handling alert',async({page})=>{
+test.skip ('handling alert @Smoke',async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/?m=1');
 

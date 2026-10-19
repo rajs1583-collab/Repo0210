@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test';
 
-test('iframes',async({page})=>{
+test('iframes @Smoke',async({page})=>{
 
     await page.goto('https://ui.vision/demo/webtest/frames/')
 
