@@ -4,7 +4,7 @@ test('Screenshot',async({page})=>{
 
     await page.goto('https://www.amazon.in/');
 
-    //await page.screenshot({path:'screenshot/amazon.png'})
+    await page.screenshot({path:'screenshot/amazon.png'})
 
     //await page.screenshot({path:'screenshot/amazon1.png',fullPage:true})
 
@@ -16,7 +16,7 @@ test('Screenshot',async({page})=>{
 
     //await page.locator('.nav_a').filter({hasText:'Twitter'}).click();
 
-    await page.locator('.nav_a').filter({hasText:'Amazon Science'}).click();
+    //await page.locator('.nav_a').filter({hasText:'Amazon Science'}).click();
 
-    await page.pause();
+    
 })
