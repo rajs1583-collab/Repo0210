@@ -17,4 +17,6 @@ test('Screenshot',async({page})=>{
     //await page.locator('.nav_a').filter({hasText:'Twitter'}).click();
 
     await page.locator('.nav_a').filter({hasText:'Amazon Science'}).click();
+
+    await page.pause();
 })
