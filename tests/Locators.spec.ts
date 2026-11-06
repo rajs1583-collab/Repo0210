@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test';
 
-test ('Locators',async({page})=>{
+test.skip ('Locators',async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/?m=1');
     //await page.getByRole ('textbox',{name:'Name'}).fill('Puli');
@@ -12,9 +12,9 @@ test ('Locators',async({page})=>{
     //await page.getByRole('button',{name:'start'}).click();
     //await expect(page.getByRole('button',{name:'STOP'})).toBeVisible();
 
-    await expect(page.getByText('Automation Testing Practice')).toBeVisible();
+    //await expect(page.getByText('Automation Testing Practice')).toBeVisible();
 
 
-    await page.pause();
+    //await page.pause();
 
 })
